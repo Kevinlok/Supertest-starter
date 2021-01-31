@@ -22,13 +22,13 @@ Given(
   async (_t: TestController, [withOrWithout]) => {
     if (withOrWithout === 'with') {
       // TODO: 2
-      // Make a get request to the url with the authorization key
+      // Make a get request with the request method from request.ts to the url with the authorization key
       // endpoint is an empty string
       // Body is an empty JSON object. Hint: JSON.parse('{}')
       
     } else if (withOrWithout === 'without') {
       // TODO: 3
-      // Make a get request to the url without the authorization key
+      // Make a get request with the request method from request.ts to the url without the authorization key
       // endpoint is an empty string
       // Body is an empty JSON object. Hint: JSON.parse('{}')
     }
