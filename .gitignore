@@ -1,0 +1,8 @@
+# dependencies
+/node_modules
+
+# testcafe
+testcafe/reports/*
+
+# vscode
+.vscode

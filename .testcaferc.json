@@ -1,0 +1,17 @@
+{
+  "reporter": [
+      {
+          "name": "spec"
+      },
+      {
+          "name": "jenkins",
+          "output": "testcafe/reports/report.xml"
+      },
+      {
+          "name": "html",
+          "output": "testcafe/reports/report.html"
+      }
+  ],
+  "speed": 1.0,
+  "assertionTimeout": 1000
+}

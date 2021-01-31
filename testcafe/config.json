@@ -1,0 +1,18 @@
+{
+  "environments": {
+    "test": {
+      "service": {
+        "user-movie-service": {
+          "url": "http://localhost:3000/",
+          "authorizationKey": "MyUniqueApiKey"
+        },
+        "random-matching-service": {
+          "url": "random.ontwikkel.local:8103/",
+          "version": "v1",
+          "endPoint": "/matching",
+          "authorizationKey": "thisisverysecret"
+        }
+      }
+    }
+  }
+}
